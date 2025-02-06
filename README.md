@@ -11,7 +11,10 @@ A simple **Python GUI application** that simulates a coin toss, helping users ma
 ✅ **Dark Mode** – Toggle between **light mode** and **dark mode** for better readability.  
 
 ## 📸 Screenshots  
+
 *(Add screenshots of your app here for better visualization!)*  
+
+---
 
 ## 🛠️ Technologies Used  
 
@@ -19,9 +22,37 @@ A simple **Python GUI application** that simulates a coin toss, helping users ma
 - **Tkinter** (for GUI)  
 - **Pillow (PIL)** (for handling images)  
 
+---
+
 ## 📦 Installation  
 
-1. **Clone the Repository**  
-   ```sh
-   git clone https://github.com/avjt2214/coin-toss-app.git
-   cd coin-toss-app
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/your-github-username/coin-toss-app.git
+cd coin-toss-app
+```
+### 2️⃣ Install Dependencies  
+```sh
+pip install pillow
+```
+### 3️⃣ Run the Application  
+```sh
+python coin_toss.py
+```
+## 📌 How to Use
+- Click the "Toss the Coin" button to flip the coin.
+- The app will randomly display Heads or Tails with an animation.
+- Check the toss history to see how many times each side has appeared.
+- Click "Reset" to clear the results.
+- Use the "Toggle Dark Mode" button to switch between light and dark themes.
+
+## 🖼️ Image Assets
+Make sure to place heads.png and tails.png in the project directory for the images to load properly.
+
+## 🤝 Contributing
+Feel free to fork this project and enhance it with additional features like:
+- Custom coin designs 🎨
+- Statistical analysis 📊
+
+## 📜 License
+This project is licensed under the MIT License – you’re free to modify and distribute it!
